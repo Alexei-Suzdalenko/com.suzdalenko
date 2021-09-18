@@ -1,6 +1,6 @@
 <template>
   <div class="loading">
-    <img src="/img/icons/loading.gif" alt="Suzdalenko" class="gif_loading">
+    <img src="/img/icons/loading.gif" alt="Семен Скрепецкий" class="gif_loading">
   </div>
 </template>
 

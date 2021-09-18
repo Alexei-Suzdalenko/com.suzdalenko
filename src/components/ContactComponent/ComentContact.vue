@@ -4,7 +4,7 @@
     <form class="wpcf7" id="contactform">
       <div class="form">
         <p><input type="text" name="name" placeholder="Ваше имя" v-model="name"></p>
-        <p><input type="text" name="email" placeholder="Ваш сайт, социальная сеть (https://suzdalenko.com)" v-model="web"></p>
+        <p><input type="text" name="email" placeholder="Ваш сайт, социальная сеть (https://russian-news-blog.web.app/)" v-model="web"></p>
         <p><textarea name="comment" rows="3" placeholder="Комментарий" v-model="message"></textarea></p>
         <input type="button" class="clearfix btn" value="Отправить" v-on:click="send">
       </div>

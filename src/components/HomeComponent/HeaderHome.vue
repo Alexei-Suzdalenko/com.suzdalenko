@@ -1,9 +1,8 @@
 <template>
   <header class="site-header">
     <div class="site-branding">
-      <h4 class="site-title"><a href="/" rel="home" v-on:click="resetWindowLocalStorage">Suzdalenko</a></h4>
-      <h1 v-if="indexPage" class="site-description"><a target="_blank" href="https://play.google.com/store/apps/details?id=russia.blog.russia"> Новости которые мы заслужили</a></h1>
-      <h4 v-if="!indexPage" class="site-description"><a target="_blank" href="https://play.google.com/store/apps/details?id=russia.blog.russia"> Новости которые мы заслужили</a></h4>
+      <h4 class="site-title"><a href="/" rel="home" v-on:click="resetWindowLocalStorage">Skrepetski</a></h4>
+      <h1 class="site-description"><a target="_blank" href="https://play.google.com/store/apps/details?id=russia.blog.russia"> Новости которые мы заслужили</a></h1>
     </div>
     <nav id="site-navigation" class="main-navigation">
       <button class="menu-toggle" v-on:click="showHiddenMenu" id="menu_title">Меню</button>
@@ -43,15 +42,5 @@ export default {
      }
     },
   },
-  computed: {
-    indexPage(){
-      let currentLocation = window.location;
-      if(currentLocation == 'http://localhost:8080/' || currentLocation == 'http://suzdalenko.com/' || currentLocation == 'http://suzdalenko.com' || currentLocation == 'https://suzdalenko.com' || currentLocation == 'https://suzdalenko.com/'){
-        return true;
-      } else {
-        return false;
-      }
-    }
-  }
 }
 </script>

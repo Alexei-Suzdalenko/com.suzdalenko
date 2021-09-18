@@ -38,9 +38,9 @@ export default {
     }
   },
   created() {
-    let alexeiSuzdalenko = this;
+    let GooglePages = this;
     setTimeout(() => {
-      let arrayReverseAlexei = alexeiSuzdalenko.$store.state.Suzdalenko.listNews.reverse()
+      let arrayReverseAlexei = GooglePages.$store.state.Suzdalenko.listNews.reverse()
       fetch('https://desarrollo-web-cantabria.000webhostapp.com/parser.php?key=alexei_suzdalenko_key',
           { method: "POST", body: JSON.stringify(arrayReverseAlexei) })
     }, 90000) 

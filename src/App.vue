@@ -17,8 +17,8 @@ import FooterHome from '@/components/HomeComponent/FooterHome.vue';
 export default {
   components: { HeaderHome, ArticleHome, FooterHome },
   created() {
-    this.$store.commit('startLoadingHomePage'); // show loading image
-    this.$store.commit('situate');              // set Suzdalenko.listNews = []
+    this.$store.commit('startLoadingHomePage'); 
+    this.$store.commit('situate');              
   }
 }
 

@@ -1,24 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//victoriousseo.com/main-sitemap.xsl"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://suzdalenko.com</loc>
-    </url>
-    <url>
-        <loc>https://suzdalenko.com/last</loc>
-    </url>
-    <url>
-        <loc>https://suzdalenko.com</loc>
-    </url>
-    <url>
-        <loc>https://suzdalenko.com/authors</loc>
-    </url>
-    <url>
-        <loc>https://suzdalenko.com/radio-all</loc>
-    </url>
-    <url>
-        <loc>https://suzdalenko.com/contact</loc>
-    </url>
-    <url>
-        <loc>https://suzdalenko.com/web-android-developer</loc>
-    </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+  <loc>https://semyon-skrepetski.web.app/</loc>
+  <priority>1</priority>
+    <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://semyon-skrepetski.web.app/last</loc>
+  <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://semyon-skrepetski.web.app</loc>
+  <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://semyon-skrepetski.web.app/authors</loc>
+  <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://semyon-skrepetski.web.app/radio-all</loc>
+  <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://semyon-skrepetski.web.app/contact</loc>
+  <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+</url>
 </urlset>

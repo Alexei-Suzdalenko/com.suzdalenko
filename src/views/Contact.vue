@@ -8,29 +8,23 @@
             <h1 class="entry-title">Контакт</h1>
           </header>
           <div class="entry-content">
-            <p><img style="border:10px solid #f4f5f6" src="https://avatars.githubusercontent.com/u/75933673?v=4" alt="Alexei Suzdalenko" width="430" class="alignright"></p>
-            <p>Здравствуй, меня зовут Алексей Суздаленко, я занимаюсь веб разработкой в области <b>Vue Js</b> + <b>PHP</b> (Laravel, Symfony) приложений, а также приложений <b>Aндроид</b> (Java, Kotlin, Flutter).</p>
+            <p><img style="border:10px solid #f4f5f6" src="https://yt3.ggpht.com/aCqXs7ByzALfmUhGgyNeMRfyTjwEakMffpIDWzwPA3NTezvqdX9nRRC4HIf4frvVYWE_f0_h=s900-c-k-c0x00ffffff-no-rj" alt="Семен Скрепецкий" width="430" class="alignright"></p>
+            <p>Здравствуй, меня зовут Семен Скрепецкий, я художник, музыкант, писатель.</p>
             <p>Работаю как в России, так и за ее пределами.</p>
-            <p>Примером моей работы является данный сайт, который работает на следующих технологиях: frontend - <b>Vue Js</b>, backend - <b>PHP</b>, парсер новостей - <b>Kotlin</b>.</p>
-            <p>Новости на этом сайте публикует <b>парсер новостей</b> (<b>искусственный интеллект</b>), я часто не согласен с его подборкой новостей,
-              но это его ответственность и право; Таким образом <b>я не несу ответственности за правдивость и достоверность</b> новостей на этом сайте,
-              потому как было сказано ранее, новости парсит из глобальной сети интернет и публикует <b>ИИ</b> на базе Kotlin.</p>
-            <h2 style="font-family: 'Herr Von Muellerhoff';color:#ccc;font-weight:300;">Suzdalenko Alexei</h2>
+            <p>Новости на этом сайте публикует <b>парсер новостей</b> (<b>искусственный интеллект</b>).</p>
+            <h2 style="font-family: 'Herr Von Muellerhoff';color:#ccc;font-weight:300;">Semyon Skrepetski</h2>
 
             <div class="wpcmsdev-columns">
               <ComentContact />
               <div class="column column-width-one-half">
-                <a target="_blank" href="https://t.me/suzdalenko"><h4>Telegram Suzdalenko</h4></a>
-                <p><a href="mailto:desarrollo.web.cantabria.penagos@gmail.com">Или просто напишите мне на почту <h4>desarrollo.web.cantabria.penagos@gmail.com</h4></a></p>
-                <p>Вы всегда можете обратится ко мне за консультацией, это бесплатно.</p>
-                <p>Понедельник – Пятница: 9am to 5pm<br> Суббота: 10am to 2pm<br> Воскресенье: Закрыто</p>
+                <p><a href="https://www.youtube.com/channel/UCHbNxnZIGbsrb-1vpExUqPw" target="_blank"><h4>YouTube Семён Скрепецкий</h4></a></p>
               </div>
             </div>
           </div>
         </article>
       </main>
       <section style="margin-bottom:33px">
-        <p v-for="message in listMessages">{{ message.name }} <a target="_blank" v-bind:href="message.web">{{ message.web }}</a> <br> {{ message.message }}</p>
+        <p v-for="message in listMessages" v-bind:key="message">{{ message.name }} <a target="_blank" v-bind:href="message.web">{{ message.web }}</a> <br> {{ message.message }}</p>
       </section>
     </div>
   </div>

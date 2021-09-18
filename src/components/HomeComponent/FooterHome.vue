@@ -2,10 +2,10 @@
   <footer id="colophon" class="site-footer">
     
       
-        <a target="blank" href="/"><h6 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">Suzdalenko</h6></a><br>
+        <a target="blank" href="/"><h6 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">Semyon Skrepetski</h6></a><br>
         <FooterAuthor /> <br>
         <br>
-        <a target="blank" href="https://diseno-cantabria.web.app/">&copy; Google - Diseño Web Cantabria - {{ currentData }}</a>
+        <a target="blank" href="/">&copy; Google - Cемен Скрепецкий - {{ currentData }}</a>
   
   </footer>
 </template>

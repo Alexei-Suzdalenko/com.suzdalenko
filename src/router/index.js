@@ -5,12 +5,12 @@ const routes = [{
     path: '/',
     name: 'Index',
     component: () => import('../views/Index'),
-    meta: { title: 'Новости на Руси' }
+    meta: { title: 'Семен Скрепецкий' }
   }, {
     path: '/last',
     name: 'Home',
     component: Home,
-    meta: { title: 'Последние события | Новости которые мы заслужили' }
+    meta: { title: 'Последние события | Семен Скрепецкий' }
   }, {
     path: '/authors',
     component: () => import('../views/Authors.vue'), meta: { title: 'Автор' }
@@ -22,17 +22,23 @@ const routes = [{
     component: () => import('../views/RadioAll.vue'), meta: { title: 'Радио России' }
   }, {
     path: '/radio/:id', component: () => import('../views/CurrentRadio.vue')
-  }, {
+  },
+   {
     path: '/contact',
     name: 'Contact',
     component: () => import('../views/Contact.vue'),
-    meta: { title: 'Алексей Суздаленко веб-андроид разработчик' }
-  }, {
+    meta: { title: 'Контакт, Семен Скрепецкий' }
+  },
+   {
     path: '/detail/:id',
     name: 'Detaii',
     component: () => import('../views/Detail.vue'),
-  }, {
-    path: '/:catchAll(.*)', redirect: '/radio-all'
+  },  {
+    path: '/video/:id',
+    name: 'Video',
+    component: () => import('../views/Video.vue'),
+  },  {
+    path: '/:catchAll(.*)', redirect: '/'
   }];
 
 const router = createRouter({ history: createWebHistory(process.env.BASE_URL), routes });

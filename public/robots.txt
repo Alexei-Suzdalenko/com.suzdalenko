@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /api
-Host: suzdalenko.com
+Disallow: /404.html
+Host: semyon-skrepetski.web.app
+Sitemap: https://semyon-skrepetski.web.app/sitemap.xml
