@@ -33,7 +33,6 @@ export default {
               keys.push(childSnapshot.key)
               arrayAuthors.push(childSnapshot.val())
             });
-          //  currentEnviroment.listAuthors = JSON.stringify( arrayAuthors);
             currentEnviroment.listAuthorsKeys = keys;
             currentEnviroment.listAuthors = arrayAuthors;
             currentEnviromentData.putDataTo000WebhostServer();

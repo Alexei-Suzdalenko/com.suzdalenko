@@ -18,11 +18,7 @@ import InputImage from '@/components/RuComponents/InputImageRu';
 export default {
   components: { Loading, InputImage },
   data() {
-        return {
-          listObjectInfo: [],
-          title: 'Веб разработка под ключ',
-          description : 'Разработка приложений Symfony, Laravel, Vue Js, Fluter, Kotlin'
-        };
+        return { listObjectInfo: [], title: 'Семен Скрепецкий', description : 'Писатель, художник Семен Скрепецкий' };
     },
     mounted() {
       this.init();
@@ -35,7 +31,6 @@ export default {
     methods: {
       init(){
           fetch('https://desarrollo-web-cantabria.000webhostapp.com/parser.php').then(response => response.json()).then(json => {
-            console.log(json)
             this.listObjectInfo = json;
           });
       }
