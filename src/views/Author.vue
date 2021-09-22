@@ -2,7 +2,7 @@
     <main class="site-main" role="main" style="min-height: 500px; margin-top: 30px;">
       <article class="post-37 page type-page status-publish hentry">
         <header class="entry-header" style="margin-bottom: 30px;">
-          <h1 class="entry-title"><a v-bind:href="/author/ + this.$route.params.id" target="_blank">{{ nameAuthor }}</a></h1>
+          <h1 class="entry-title"><router-link v-bind:to="/author/ + this.$route.params.id" target="_blank">{{ nameAuthor }}</router-link></h1>
         </header>
         <div class="entry-content">
           <p v-for="(article, index) in listArticles" v-bind:key="index">

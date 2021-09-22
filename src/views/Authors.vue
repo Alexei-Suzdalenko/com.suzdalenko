@@ -2,7 +2,7 @@
   <main class="site-main" role="main" style="min-height: 500px; margin-top: 30px;">
     <article class="post-37 page type-page status-publish hentry">
       <header class="entry-header" style="margin-bottom: 30px;">
-        <h1 class="entry-title"><a class="auth_title" href="/authors" target="_blank">Автор</a></h1>
+        <h1 class="entry-title"><router-link class="auth_title" to="/authors" target="_blank">Автор</router-link></h1>
       </header>
       <div class="entry-content">
         <p v-for="(author, index) in listAuthors" v-bind:key="index">

@@ -7,7 +7,7 @@
               />
           </div>
           <br>
-          <h4 class="entry-title"><a v-bind:href="'/detail/' + objectInfo.key">{{ objectInfo.title }}</a></h4>
+          <h4 class="entry-title"><router-link v-bind:to="'/detail/' + objectInfo.key">{{ objectInfo.title }}</router-link></h4>
           <br>
         </header>
       </article>

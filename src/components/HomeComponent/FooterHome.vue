@@ -2,10 +2,10 @@
   <footer id="colophon" class="site-footer">
     
       
-        <a target="blank" href="/"><h6 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">Semyon Skrepetski</h6></a><br>
+        <router-link to="/"><h6 style="font-family: 'Herr Von Muellerhoff';color: #ccc;font-weight:300;text-align: center;margin-bottom:0;margin-top:0;line-height:1.4;font-size: 46px;">Semyon Skrepetski</h6></router-link><br>
         <FooterAuthor /> <br>
         <br>
-        <a target="blank" href="/">&copy; Google - Cемен Скрепецкий - {{ currentData }}</a>
+        <router-link to="/">&copy; Google - Cемен Скрепецкий - {{ currentData }}</router-link>
   
   </footer>
 </template>

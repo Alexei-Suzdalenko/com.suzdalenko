@@ -23,7 +23,8 @@
         </article>
       </main>
       <section style="margin-bottom:33px">
-        <p v-for="message in listMessages" v-bind:key="message">{{ message.name }} <a target="_blank" v-bind:href="message.web">{{ message.web }}</a> <br> {{ message.message }}</p>
+        <p v-for="message in listMessages" v-bind:key="message">{{ message.name }}
+           <router-link target="_blank" v-bind:to="message.web">{{ message.web }}</router-link> <br> {{ message.message }}</p>
       </section>
     </div>
   </div>

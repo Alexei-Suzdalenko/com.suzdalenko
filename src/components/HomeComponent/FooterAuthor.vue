@@ -1,6 +1,6 @@
 <template>
     <span v-for="(listItem, index) in listAuthors" v-bind:key="index" class="articule_authors"    >
-      <a v-bind:href="'/author/' + listItem.key" target="_blank">{{ listItem.name }}</a>
+      <router-link v-bind:to="'/author/' + listItem.key" target="_blank">{{ listItem.name }}</router-link>
     </span>
 </template>
 

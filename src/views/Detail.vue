@@ -1,11 +1,11 @@
 <template>
   <article class="portfolio hentry">
     <header class="entry-header">
-      <a target="_blank" v-bind:href="'/detail/' + keyKey"><h1 class="entry-title">{{ pageTitle }}</h1></a>
+      <router-link target="_blank" v-bind:to="'/detail/' + keyKey"><h1 class="entry-title">{{ pageTitle }}</h1></router-link>
       <div class="entry-thumbnail" style="text-align: center;">
-        <a target="_blank" v-bind:href="'/detail/' + keyKey">
+        <router-link target="_blank" v-bind:to="'/detail/' + keyKey">
           <img width="800" height="533" v-bind:src="imageSrc" v-bind:alt="pageTitle" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" />
-        </a>
+        </router-link>
       </div>
     </header>
     <div class="entry-content">
