@@ -9,7 +9,7 @@
           </header>
           <div class="entry-content">
             <p><img style="border:10px solid #f4f5f6" src="https://yt3.ggpht.com/aCqXs7ByzALfmUhGgyNeMRfyTjwEakMffpIDWzwPA3NTezvqdX9nRRC4HIf4frvVYWE_f0_h=s900-c-k-c0x00ffffff-no-rj" alt="Семен Скрепецкий" width="430" class="alignright"></p>
-            <p>Здравствуй, меня зовут Семен Скрепецкий, я художник, музыкант, писатель.</p>
+            <p>Семён Скрепецкий, почётный житель Немногопотерпетьевска, лучший сборщик валежника, заместитель директора местного мухопитомника, друг Ватки, собутыльник Семёныча.</p>
             <p>Работаю как в России, так и за ее пределами.</p>
             <h2 style="font-family: 'Herr Von Muellerhoff';color:#ccc;font-weight:300;">Semyon Skrepetski</h2>
 
